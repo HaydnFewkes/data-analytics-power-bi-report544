@@ -28,3 +28,21 @@ Milestone 3:
 	- Profit YTD
 	- Revenue YTD
 - Created date and geography hierarchies
+
+Milestone 4:
+- Created the reports pages including:
+	- Executive Summary
+	- Customer Details
+	- Product Details
+	- Stores Map
+
+Milestone 5:
+- Added to the Customer Details page including:
+	- A card for the number of unique customers
+	- A card for the revenue per customers
+	- A donut chart for the total customers per region
+	- A bar chart for the total customers per product category
+	- A line chart that shows total customers per (start of) year, quarter and month, with the ability to drill down
+	- A table that shows the top 20 customers by revenue including the customers full name, total orders and revenue made
+	- A set of cards that represents the top customer with their full name, number of orders and total revenue in each respective card
+	- A date  slicer to select a frame between two years
