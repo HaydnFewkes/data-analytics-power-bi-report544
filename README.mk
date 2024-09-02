@@ -46,3 +46,14 @@ Milestone 5:
 	- A table that shows the top 20 customers by revenue including the customers full name, total orders and revenue made
 	- A set of cards that represents the top customer with their full name, number of orders and total revenue in each respective card
 	- A date  slicer to select a frame between two years
+
+Milestone 6:
+- Added to the Executive Summary page including:
+	- Three cards that shows total revenue, total orders and total profit
+	- A line chart that shows total revenue against the data hierarchy including (start of) year, quarter and month
+	- Two donut charts that show total revenue segmented my country and store type
+	- A bar chart that shows total orders by product category
+	- Created 6 new measures including:
+		- Previous quarter revenue, orders and profit
+		- Target revenue, orders and profit which shows 5% growth of the Previous quarter metric
+	- Three KPI to show target revenue, orders and profit respectively 
