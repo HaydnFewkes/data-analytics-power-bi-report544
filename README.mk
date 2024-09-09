@@ -56,4 +56,18 @@ Milestone 6:
 	- Created 6 new measures including:
 		- Previous quarter revenue, orders and profit
 		- Target revenue, orders and profit which shows 5% growth of the Previous quarter metric
-	- Three KPI to show target revenue, orders and profit respectively 
+	- Three KPI to show target revenue, orders and profit respectively
+
+Milestone 7:
+- Added to the Product Details page including:
+	- Creating 3 gauges that shows the current metric of orders, revenue and profit for the quarter against the target value which
+	  in this case was 10%
+	- From the previous point I created the current orders, revenue and profit for the quarter along with the difference left to reach
+	- Created card that displayed the filtered data, including the category and country
+	- Added an area chart for the total revenue for each category of product by the quarter
+	- Added a top 10 product table that included created new columns for profit per item and profit per orders
+		- the table incldued the description, total revenue, total orders, total customers and profit per order
+	- Added a scatter graph that shows the profit per item against the total quantity that has been sold, seperated by category
+	- Added some buttons that worked as a opening and closing menu which included:
+		- two filters for category and country
+		- two button that use bookmarks to open and close said menu
