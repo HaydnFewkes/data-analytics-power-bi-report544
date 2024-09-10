@@ -71,3 +71,13 @@ Milestone 7:
 	- Added some buttons that worked as a opening and closing menu which included:
 		- two filters for category and country
 		- two button that use bookmarks to open and close said menu
+
+Milestone 8:
+- Added to the Stores Page including:
+	- Created two more pages, one for drillthrough, one for tooltip
+		- The drillthrough page inlcudes having gauges for profit and revenue YTD and the goal for the metrics
+		- A top 5 products table by profit YTD
+		- A column chart showing total orders by category
+		- A card that shows the store loaction that is selected
+	- Added a map visual that shows the profit YTD using the geography hierarchy made earlier
+	- A filter for said map that seperates out the different regions
