@@ -81,3 +81,9 @@ Milestone 8:
 		- A card that shows the store loaction that is selected
 	- Added a map visual that shows the profit YTD using the geography hierarchy made earlier
 	- A filter for said map that seperates out the different regions
+
+Milestone 9:
+- Cleaned up cross-filtering and formatting including:
+	- Ensuring each pages visuals only effected the required other visuals e.g:
+		- Selecting one bar in a bar chart doesnt change all the cards and graphs to match the data
+	- Creating navigation buttons so that the user can move between pages easily
