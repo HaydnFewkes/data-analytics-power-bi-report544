@@ -87,3 +87,35 @@ Milestone 9:
 	- Ensuring each pages visuals only effected the required other visuals e.g:
 		- Selecting one bar in a bar chart doesnt change all the cards and graphs to match the data
 	- Creating navigation buttons so that the user can move between pages easily
+
+Milestone 10:
+- Answered the questions using SQL queiries:
+	- First connected to the data base using an azure connection
+	- Created csv files containing all the table column names
+	- The questions were as followed:
+		- Q1: How many staff are there in all of the UK stores?
+			- Here we had a simple SUM query that outputted the result
+			 of 13,273 staff members
+		- Q2: Which month in 2022 has had the highest revenue?
+			- Here we used subqueries and JOINS to create a table that
+			calculated the revenue for the given year, resulting in a
+			table with the revenue for 2022 for all 12 months. Hence we
+			see that the month with the highest revenue is August with 
+			a total of 66,048.29
+		-Q3: Which German store type had the highest revenue for 2022?
+			- This had a similar path to question 2, where we use subqueries
+			and JOINS to create a table that has the revenue for each store
+			in germany in the year 2022, and so we see that the stores with 
+			the highest revenue is the Super Stores with a revenue of 43,536.78
+		- Q4: Create a view where the rows are the store types and the columns are the total sales, 
+			  percentage of total sales and the count of orders
+			- Once again we use JOINS and a subquery for the required table
+			the only new element being the calculation for the percentage,
+			to find the percent of the whole column accuratly I used the OVER
+			function to define the window over the given full column
+		- Q5: Which product category generated the most profit for the "Wiltshire, UK" region in 2021?
+			- We use more JOIN and subqueries getting a table with the categories
+			against their total profit, the only difference for this queiry 
+			being calculating profit instead of revenue, and so we find that
+			the product category with the most profit in the area of Wiltshire
+			in 2021 is Homeware with a profit of 1,193.52	
